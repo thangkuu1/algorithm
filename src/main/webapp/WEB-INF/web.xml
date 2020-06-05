@@ -31,6 +31,9 @@
   		<servlet-name>dispatcher</servlet-name>
   		<url-pattern>/</url-pattern>
   </servlet-mapping>
+  <!-- <welcome-file-list>
+    <welcome-file>/WEB-INF/views/qrcodeform.jsp</welcome-file>
+  </welcome-file-list> -->
   <context-param>
   		<param-name>contextConfigLocation</param-name>
   		<param-value>/WEB-INF/dispatcher-servlet.xml</param-value>

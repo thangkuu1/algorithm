@@ -21,19 +21,19 @@
 					Chuyển dữ liệu DB
 				</div>
 				<div class="panel-body">
-					<form action="/Utility_LVB/convert-value" method="post">
+					<form action="/Utility_LVB/qr-code" method="post">
 						<div class="form-group">
-						  <label >Nhập text</label>
+						  <label >Nhập Ma QR</label>
 						  <input type="text" name="value_text" class="form-control" placeholder="Nhập ký tự dang abc,xyz">
 						  <button type="submit" style="float: right; margin-top:10px" class="btn btn-primary">Genarate</button>
 						</div>
 					</form>
-					<p>Result: <span>${result_convertText }</span></p>
+					
 				</div>
 			</div>
 		</div>
 	  	
-	  	<%@ include file = "footer.jsp" %>	
+	  	
   	</div>
 </body>
 <script src="/Utility_LVB/resources/js/form.js"></script>
